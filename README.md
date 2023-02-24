@@ -1,4 +1,4 @@
-# rool, a simple go routine pool
+# eeianux/pool, a simple go routine pool
 
 # Installation
 ```shell
