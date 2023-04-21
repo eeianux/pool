@@ -1,5 +1,5 @@
 # eeianux/pool, a simple go routine pool
-[![Coverage](https://codecov.io/gh/eeianux/pool/branch/master/graph/badge.svg)](https://codecov.io/gh/eeianux/pool)
+[![Coverage](https://codecov.io/gh/eeianux/pool/branch/main/graph/badge.svg)](https://codecov.io/gh/eeianux/pool)
 # Installation
 ```shell
 go get github.com/eeianux/pool
