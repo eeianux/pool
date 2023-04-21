@@ -1,4 +1,6 @@
 # eeianux/pool
+[![LICENSE](https://img.shields.io/github/license/eeianux/pool.svg)](https://github.com/eeianux/pool/blob/main/LICENSE)
+[![Language](https://img.shields.io/badge/Language-Go-blue.svg)](https://golang.org/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/eeianux/pool)](https://goreportcard.com/report/github.com/eeianux/pool)
 [![Coverage](https://codecov.io/gh/eeianux/pool/branch/main/graph/badge.svg)](https://codecov.io/gh/eeianux/pool)
 
