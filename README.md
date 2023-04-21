@@ -1,5 +1,7 @@
-# eeianux/pool, a simple go routine pool
+# eeianux/pool
+[![Go Report Card](https://goreportcard.com/badge/github.com/eeianux/pool)](https://goreportcard.com/report/github.com/eeianux/pool)
 [![Coverage](https://codecov.io/gh/eeianux/pool/branch/main/graph/badge.svg)](https://codecov.io/gh/eeianux/pool)
+ a simple go routine pool
 # Installation
 ```shell
 go get github.com/eeianux/pool
