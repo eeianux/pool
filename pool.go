@@ -10,18 +10,20 @@ type pool struct {
 	wg   *sync.WaitGroup
 }
 
-func (r pool) handle() {
+func safeRun(f func()) {
 	defer func() {
 		if e := recover(); e != nil {
-			// 避免所有协程退出导致通道阻塞，引起死锁
-			go r.handle()
 			debug.PrintStack()
 		}
 	}()
+	f()
+}
+
+func (r pool) handle() {
 	defer r.wg.Done()
 	for {
 		if f, ok := <-r.pool; ok {
-			f()
+			safeRun(f)
 		} else {
 			break
 		}
